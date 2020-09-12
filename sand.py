@@ -1,1 +1,2 @@
-print(3**4)
+for i in 'Sabari':
+    print(i)
