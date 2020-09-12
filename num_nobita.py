@@ -5,13 +5,12 @@ def isnobita(n):
             return False
     return True
 
-if __name__=='__main__':
-    nobita=[]
-    count=0
-    for i in range(100):
-        if isnobita(i):
-            nobita.append(i)
-            count+=1
+nobita=[]
+count=0
+for i in range(100):
+    if isnobita(i):
+        nobita.append(i)
+        count+=1
 print('The number of nobita numbers not more than a 100 is {}'.format(count))
 for num in nobita:
     print(num)
