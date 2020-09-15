@@ -18,6 +18,6 @@ def quicksort(arr,low,high):
     quicksort(arr,low,m-1)
     quicksort(arr,m+1,high)
 
-arr=list(map(int,input().split()))    
+arr=list(map(int,input().split()))
 quicksort(arr,0,len(arr)-1)
 print(arr)
