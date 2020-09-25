@@ -1,7 +1,7 @@
 
 def isspecial(s):
     if len(s)%2!=0:
-        newstr=s[0:len(s)//2]+s[0]+s[len(s)//2+1:]
+        newstr=s[0:len(s)//2]+s[len(s)//2+1:]
     else:
         newstr=s
     c=s[0]
@@ -9,7 +9,6 @@ def isspecial(s):
         if ch!=c:
             return False
     return True
-
 
 def substrCount(n, s):
     count=0
