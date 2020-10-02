@@ -43,21 +43,6 @@ def get_weighted(arr,w):
             ans[j]+=w[i]*arr[i][j]
     return ans
 
-def get_stats(arr):
-    mean=sum(arr)/len(arr)
-    sum_sq=0
-    for thing in arr:
-        sum_sq+=(thing-mean)**2
-    sigma=(sum_sq/len(arr))**0.5
-    return mean,sigma
-
-def gaussian_normalize(arr):
-    ans=[0 for i in range(len(arr))]
-    mean,sigma=get_stats(g1)
-    for i in range(len(arr)):
-        ans[i]=(1/(sigma*((2*3.14159265)**0.5)))*2.71828182**(-1*(((arr[i]-mean)**2)/(2*(sigma**2))))
-    return ans
-
 if __name__=='__main__':
     projects=getarray(r'C:\Users\Sabari\Desktop\python scripts\CRC scoring\project_details.csv')
     g1a=getarray(r'C:\Users\Sabari\Desktop\python scripts\CRC scoring\scores\g1a.csv')
