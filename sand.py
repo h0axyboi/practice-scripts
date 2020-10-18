@@ -1,2 +1,3 @@
-for i in range(1):
-    print(i)
+s='abcdef'
+print(s[:3][-1])
+print(s[3])
