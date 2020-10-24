@@ -4,7 +4,6 @@ root=Tk()
 root.title('Simple Calculator')
 
 def button_click(number):
-    e.delete(0,END)
     e.insert(0,number)
 
 e=Entry(root,width=45,borderwidth=5)
