@@ -1,3 +1,7 @@
-s='abcdef'
-print(s[:3][-1])
-print(s[3])
+def do():
+    global thing
+    print(thing)
+
+if __name__ == '__main__':
+    thing='sa'
+    do()
