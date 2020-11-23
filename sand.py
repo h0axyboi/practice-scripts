@@ -1,7 +1,12 @@
-def do():
-    global thing
-    print(thing)
-
-if __name__ == '__main__':
-    thing='sa'
-    do()
+s=set()
+s.add(0)
+s.add(5)
+s.add(3)
+s.add(4)
+b=set()
+b.add(0)
+b.add(5)
+b.add(3)
+b.add(4)
+print(s)
+print(b)
